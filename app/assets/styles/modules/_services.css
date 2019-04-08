@@ -1,0 +1,18 @@
+.service-section{
+    height: 672px;
+    background: #ffffff;
+
+    &__heading{
+        margin-top: 69px;
+    }
+
+    &__content-row{
+        margin-top: 60px;
+        color: #000000;
+        font-size: .87rem;
+
+        i{
+            font-size: 1.5rem;
+        }
+    }
+}
