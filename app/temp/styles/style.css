@@ -6,9 +6,13 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: .87rem;
     font-weight: 400;
+    box-sizing: border-box;
 }
 h1{
     font-size: 2.25rem;
+}
+h2{
+    font-size: 1.5rem;
 }
 .custom-nav{
     background-color: #34495e;
@@ -31,7 +35,7 @@ h1{
         width: 150px;
     }
     .carousel-inner img{
-        height: 61vh;
+        height: 50vh;
     }
     .custom-nav{
         opacity: 0.5;
@@ -44,7 +48,7 @@ h1{
         left: 0;
         height: 100%;
         width: 100%;
-        z-index: ;
+        z-index: 1;
     }
 .slider-section__caption{
         position: absolute;
@@ -80,3 +84,18 @@ h1{
     border: 5px solid red;
     height: 100px;
 }
+.service-section{
+    height: 672px;
+    background: #ffffff;
+}
+.service-section__heading{
+        margin-top: 69px;
+    }
+.service-section__content-row{
+        margin-top: 60px;
+        color: #000000;
+        font-size: .87rem;
+    }
+.service-section__content-row i{
+            font-size: 1.5rem;
+        }
