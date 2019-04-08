@@ -1,0 +1,31 @@
+.custom-nav{
+    background-color: $navbarBg;
+    opacity: 0.8;
+}
+#navbarNav{
+    ul li a{
+    color:#fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    }
+
+    ul li a:hover{
+        color:#e74e3c;
+    }
+}
+.nav-item{
+   text-align: right;
+}
+
+@media (max-width: 576px){
+    .logo{
+        width: 150px;
+    }
+    .carousel-inner img{
+        height: 61vh;
+    }
+    .custom-nav{
+        opacity: 0.5;
+    }
+}

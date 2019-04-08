@@ -1,0 +1,48 @@
+.slider-section{
+    &__overlay{
+        position: absolute;
+        background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,0));
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: ;
+    }
+    &__caption{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+
+        &-title{
+            color: #ec3d30;
+        }
+
+        &-btn{
+            display:inline-block;
+            font-size: 1.5rem;
+            color: #fff;
+            line-height: 50px;
+            width: 272px;
+            background: $primaryBtn;
+            height: 50px;
+            padding-top: auto;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration:none;
+                color: #fff;
+            }
+        }
+      &-btn:last-child{
+          background: $secondaryBtn;
+          margin-left: 10px;
+      }
+    }
+}
+
+.test{
+    border: 5px solid red;
+    height: 100px;
+}

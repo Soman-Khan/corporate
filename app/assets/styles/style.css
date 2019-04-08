@@ -1,1 +1,4 @@
-@import "modules/_header";
+@import "modules/_variables";
+@import "modules/_base";
+@import "modules/_navbar";
+@import "modules/_slider";

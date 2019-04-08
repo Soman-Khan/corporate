@@ -1,6 +1,82 @@
-.header{
-    position: relative;
-    color: #fff;
-    background: #000;
-    padding: 20px;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: .87rem;
+    font-weight: 400;
+}
+h1{
+    font-size: 2.25rem;
+}
+.custom-nav{
+    background-color: #34495e;
+    opacity: 0.8;
+}
+#navbarNav ul li a{
+    color:#fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    }
+#navbarNav ul li a:hover{
+        color:#e74e3c;
+    }
+.nav-item{
+   text-align: right;
+}
+@media (max-width: 576px){
+    .logo{
+        width: 150px;
+    }
+    .carousel-inner img{
+        height: 61vh;
+    }
+    .custom-nav{
+        opacity: 0.5;
+    }
+}
+.slider-section__overlay{
+        position: absolute;
+        background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0,0,0,0));
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: ;
+    }
+.slider-section__caption{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+        width: 80%;
+    }
+.slider-section__caption-title{
+            color: #ec3d30;
+        }
+.slider-section__caption-btn{
+            display:inline-block;
+            font-size: 1.5rem;
+            color: #fff;
+            line-height: 50px;
+            width: 272px;
+            background: #ec3d30;
+            height: 50px;
+            padding-top: auto;
+            text-decoration: none;
+        }
+.slider-section__caption-btn:hover{
+                text-decoration:none;
+                color: #fff;
+            }
+.slider-section__caption-btn:last-child{
+          background: #5768ad;
+          margin-left: 10px;
+      }
+.test{
+    border: 5px solid red;
+    height: 100px;
 }
