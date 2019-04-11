@@ -5,7 +5,6 @@
 #navbarNav{
     ul li a{
     color:#fff;
-    font-weight: bolder;
     text-transform: uppercase;
     transition: all 0.3s ease-in;
     }
