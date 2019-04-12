@@ -1,7 +1,4 @@
-.portfolio-section{
-    background-image: url('../../assets/images/work-bg.png');
-    background-size: cover;
-    background-attachment: fixed;
+.team-section{
     padding-bottom: 100px;
 
     &__container{
@@ -31,26 +28,39 @@
         cursor: pointer;
         transition: all .5s ease-in;
         h2{
-            text-decoration: none;
-            color: #fff;
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%,-40%);
+            font-size: 1.125rem;
+            font-weight: bold;
+            color: #b53127;
+            margin-top: 5%;
+        }
+        h3{
+            font-size: 1.125rem;
+            font-weight: 400;
+            color: #5764a6;
+        }
+        p{
+            font-size: 0.87rem;
+            font-weight: normal;
         }
 
         a{
             text-decoration: none;
-            color: #fff;
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            transform: translate(-55%,-50%);
+
+             i{
+                font-size: 30px;
+                margin: 5px;
+             }
+             .fa-facebook{
+                 color: #1235f8;
+             }
+             .fa-google-plus-square{
+                 color: #ff4444;
+             }
         }
     }
 
     &__img:hover &__hover{
-        opacity: 0.7;
+        opacity: 0.9;
     }
 }
 
@@ -68,14 +78,15 @@
 
 .slick-prev::before, .slick-next::before{
     font-size: 40px;
+    color: #000000;
 }
 
 /* for smartphones */
 @media (min-width: 320px) and (max-width: 480px){
-    .portfolio-section__img{
+    .team-section__img{
         margin-left: 50px;
     }
-    .portfolio-section__img img{
+    .team-section__img img{
         margin-left: 0;
     }
 
