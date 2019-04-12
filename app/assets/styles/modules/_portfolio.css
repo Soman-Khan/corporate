@@ -50,7 +50,7 @@
     }
 
     &__img:hover &__hover{
-        opacity: 0.5;
+        opacity: 0.8;
     }
 }
 
@@ -95,12 +95,6 @@
 
 /* for tablets */
 @media (min-width: 768px) and (max-width: 1024px){
-    .portfolio-section__img img{
-        /* width: 250px;
-        height: 250px; */
-        /* margin-left: -20px; */
-    }
-
     .slick-prev{
         left: 45%;
         z-index: 1;
